@@ -1,12 +1,12 @@
 # Business-Card-Parser
-How to run:
+# How to run:
 
 
-Description:
+# Description:
 
 
 
-Future Project Plans:
+# Future Project Plans:
 
 
 
