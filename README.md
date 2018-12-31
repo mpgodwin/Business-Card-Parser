@@ -14,7 +14,7 @@ You will need JDK and Eclipse or some other software that can run java files. Yo
 * JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 Installing:
-You should be able to take the project and drop it into your Eclipse workspace. From there you will need to double check the file path of the input file, which should be in the same package as the businessCardParser.java file.
+You should be able to take the project and drop it into your Eclipse workspace. When you download the files you will see a Bussiness folder. You will just need to drag that whole folder to a new project in Eclipse. From there you will need to double check the file path of the input file, which should be in the same package as the businessCardParser.java file.
 
 ## Program Flaws:
 Name:
