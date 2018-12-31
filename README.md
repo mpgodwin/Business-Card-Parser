@@ -9,9 +9,9 @@ Files Provided: Input.txt  and  businessCardParser.java
 This project was made using Eclipse. 
 
 Prerequisites:
-You will need JDK and Eclipse or some other software that can run java files. You will also need to download this files and extract them from the zip file.
-Eclipse- https://www.eclipse.org/downloads/packages/release/2018-12/r
-JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+You will need JDK and Eclipse or some other software that can run java files. You will also need to download the files and extract them from the zip file.
+* Eclipse: https://www.eclipse.org/downloads/packages/release/2018-12/r
+* JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 Installing:
 You should be able to take the project and drop it into your Eclipse workspace. From there you will neesd to double check the file path of the input file, which should be in the same package as the businessCardParser.java file.
