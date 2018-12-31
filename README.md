@@ -1,33 +1,33 @@
 # Business-Card-Parser
- ## How to run:
-Files Provided: Input.txt  and  businessCardParser.java 
-This project was made using Eclipse. 
-
-Prerequisites: You will need JDK and Eclipse or some other software that can run java files. You will also need to download this files and extract them from the zip file.
-Eclipse- https://www.eclipse.org/downloads/packages/release/2018-12/r
-JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-
-Installing:
-
-You should be able to take the project and drop it into your Eclipse workspace. From there you will neesd to double check the file path of the input file, which should be in the same package as the businessCardParser.java file.
-
 
 
 ## Description:
 This program parses the results of the optical character recognition (OCR) component in order to extract the name, phone number, and email address from the processed business card image that is provided. 
 
+## How to run:
+Files Provided: Input.txt  and  businessCardParser.java 
+This project was made using Eclipse. 
+
+Prerequisites:
+You will need JDK and Eclipse or some other software that can run java files. You will also need to download this files and extract them from the zip file.
+Eclipse- https://www.eclipse.org/downloads/packages/release/2018-12/r
+JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+Installing:
+You should be able to take the project and drop it into your Eclipse workspace. From there you will neesd to double check the file path of the input file, which should be in the same package as the businessCardParser.java file.
+
 
 ## Future Project Plans/Ideas:
- Name: In the future, I would like to redo the getName function by parsing the name through the Apache OpenNLP Library.
+ Name: 
+ In the future, I would like to redo the getName function by parsing the name through the Apache OpenNLP Library.
  https://opennlp.apache.org/
  
-Phone Number: For the phone number, I would like to also redo that function by using the libphonenumber, which is a library used for parsing phone numbers.
+Phone Number:
+For the phone number, I would like to also redo that function by using the libphonenumber, which is a library used for parsing phone numbers.
 https://github.com/googlei18n/libphonenumber
  
-Email Address: For the email address, I would like to do more research on the validatiion process.
- 
- 
- 
+Email Address: 
+For the email address, I would like to do more research on the validatiion process.
  
 ## Program Flaws:
 Name:
