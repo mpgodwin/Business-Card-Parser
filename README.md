@@ -3,11 +3,13 @@
 Files Provided: Input.txt  and  businessCardParser.java 
 This project was made using Eclipse. 
 
-Prerequisites: You will need Eclipse or some other software that can run java files.
+Prerequisites: You will need JDK and Eclipse or some other software that can run java files. 
+Eclipse- https://www.eclipse.org/downloads/packages/release/2018-12/r
+JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 Installing:
 
-You should be able to take the project and drop it into your Eclipse workspace. From there you will nee to doubl check th file path of the input file, which should be in the same package as the businessCardParser.java file.
+You should be able to take the project and drop it into your Eclipse workspace. From there you will neesd to double check the file path of the input file, which should be in the same package as the businessCardParser.java file.
 
 
 ## Description:
@@ -15,9 +17,13 @@ This program parses the results of the optical character recognition (OCR) compo
 
 
 ## Future Project Plans/Ideas:
- Name:
+ Name: In the future, I would like to redo the getName function by parsing the name through the Apache OpenNLP Library.
+ https://opennlp.apache.org/
  
- Phone Number:
+Phone Number: For the phone number, I would like to also redo that function by using the libphonenumber, which is a library used for parsing phone numbers.
+https://github.com/googlei18n/libphonenumber
+ 
+Email Address: For the email address, I would like to do more research on the validatiion process.
  
  
  
