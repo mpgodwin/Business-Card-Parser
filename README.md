@@ -4,6 +4,8 @@
 ## Description:
 This program parses the results of the optical character recognition (OCR) component in order to extract the name, phone number, and email address from the processed business card image that is provided. 
 
+Test cases: https://github.com/mpgodwin/Business-Card-Parser/blob/master/BusinessCardTests.txt
+
 ## How to run:
 Files Provided: Input.txt  and  businessCardParser.java 
 This project was made using Eclipse. 
