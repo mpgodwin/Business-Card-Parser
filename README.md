@@ -14,11 +14,11 @@ You will need JDK and Eclipse or some other software that can run java files. Yo
 * JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 Installing:
-You should be able to take the project and drop it into your Eclipse workspace. From there you will neesd to double check the file path of the input file, which should be in the same package as the businessCardParser.java file.
+You should be able to take the project and drop it into your Eclipse workspace. From there you will need to double check the file path of the input file, which should be in the same package as the businessCardParser.java file.
 
 ## Program Flaws:
 Name:
-There are several known program flaws when it comes to determining if a string is actually a persons name. As of now, the program determines if a string is a persons name by determing if that string contains only two words and two capital letters. The first flaw with this would mean an input string with a first, middle, and last name would be eliminated even if that string was actually the correct name. The next flaw is that many names contain more than two capital letters and include apostrophes. The other main flaw when it comes to determining a persons name is using disqualifier key words. If these key words are in the name being questioned, then the next line will be called by the program. There are only six key words right now, which means there could potentially mean a company name or job title can pass through the paramaters stated above as a persons name when in fact that is false. 
+There are several known program flaws when it comes to determining if a string is actually a person's name. As of now, the program determines if a string is a persons name by determing if that string contains only two words and two capital letters. The first flaw with this would mean an input string with a first, middle, and last name would be eliminated even if that string was actually the correct name. The next flaw is that many names contain more than two capital letters and include apostrophes. The other main flaw when it comes to determining a persons name is using disqualifier key words. If these key words are in the name being questioned, then the next line will be called by the program. There are only six key words right now, which means there could potentially mean a company name or job title can pass through the paramaters stated above as a person's name when in fact that is false. 
 
 Phone Number: 
 The flaw associated with the number is very simple. It only supports phone numbers from the United States at this time. 
